@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    Width:343px;
+    Height:611px;
+    background:#FFFFFF;
+    border-radius: 10px;
+}
+.img2{
+    display: none;
+}
+.img1{
+    width: 343.7px;
+    height: 240px;
+    border-radius:10px 10px 0px 0px ;
+}
+.product{
+    padding:24px 23px 24px 24px ;
+}
+.category{
+    font-family: 'Montserrat', sans-serif;
+    color: #6C7289;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+}
+.header{
+    padding-top: 12px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+}
+.description{
+    padding-top: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+}
+.price{
+    gap:19px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top:24px ;
+    Width:194px;
+    Height:32px;
+}
+.real-price{
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+}
+.discount{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+}
+.add-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 11.61px;
+    margin-top: 20px;
+    Width:295px;
+    Height:48px;
+    background: #3D8168;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.icon-cart{
+    Width:14.39px;
+    Height:16px;
+}
+@media only screen and (min-width: 1440px){
+    .card{
+        display: flex;
+        background: none;
+        width: 600px;
+        height: 450px ;
+    }
+    .img1{
+        display: none;
+    }
+    .img2{
+        border-radius:10px 0px 0px 10px ;
+        display: block;
+        width: 300px;
+        height: 100%;
+    }
+    .product{
+        width: 300px;
+        height: 100%;
+        background: #FFFFFF;
+        padding:32px 31.5px 32px 32px ;
+    }
+    .header{
+        padding-top: 20px;
+    }
+    .description{
+        padding-top: 24px;
+    }
+    .add-card{
+        Width:236px;
+        Height:48px;
+    }
+}
